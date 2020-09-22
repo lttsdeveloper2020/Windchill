@@ -1,8 +1,10 @@
 version: 0.0
 os: windows
 files:
-  - source: \Windchill\
-    destination: C:\temp
+  - source: \Windchill\codebase
+    destination: C:\temp\codebase
+  - source: \Windchill\src
+    destination: C:\temp\src
 hooks:
   BeforeInstall:
     - location: \before-install.bat
