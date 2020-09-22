@@ -1,10 +1,8 @@
 version: 0.0
 os: windows
 files:
-  - source: test.java
-    destination: C:\temp
-  - source: PartUtil.java
-  	destination: C:\temp
+  - source: \index.html
+    destination: C:\inetpub\wwwroot
 hooks:
   BeforeInstall:
     - location: \before-install.bat
