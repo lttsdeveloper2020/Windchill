@@ -1,8 +1,10 @@
 version: 0.0
 os: windows
 files:
-  - source: .\windchill\*
+  - source: test.java
     destination: C:\temp
+  - source: PartUtil.java
+  	destination: C:\temp
 hooks:
   BeforeInstall:
     - location: \before-install.bat
