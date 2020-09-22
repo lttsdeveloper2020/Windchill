@@ -6,6 +6,6 @@ files:
   - source: \Windchill\src
     destination: D:\ptc\Windchill_11.1\Windchill\src
 hooks:
-  BeforeInstall:
-    - location: \before-install.bat
+  AfterInstall:
+    - location: scripts\restart_server.bat
       timeout: 900
