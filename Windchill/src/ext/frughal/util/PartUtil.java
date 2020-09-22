@@ -5,7 +5,7 @@ public class PartUtil {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println("this is for demo");
+		System.out.println("this is for demo1");
 	}
 
 }
