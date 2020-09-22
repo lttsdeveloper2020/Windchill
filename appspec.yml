@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: \windchill\*
-    destination: C:\temp\windchill
+    destination: C:\temp
 hooks:
   BeforeInstall:
     - location: \before-install.bat
