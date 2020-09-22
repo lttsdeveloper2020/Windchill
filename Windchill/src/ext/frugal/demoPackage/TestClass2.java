@@ -1,4 +1,4 @@
-package ext.frughal.demoPackage;
+package ext.frugal.demoPackage;
 
 public class TestClass2 {
 
